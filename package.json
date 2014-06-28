@@ -1,0 +1,37 @@
+{
+  "name": "simple-commands",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "A collection of simple commands used for testing or debugging.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "pretest": "jshint index.js && jshint --config ./test/.jshintrc test",
+    "test": "istanbul cover _mocha && cat ./coverage/lcov.info | coveralls -v && rm -rf coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-simple-commands.git"
+  },
+  "keywords": [
+    "stream",
+    "command",
+    "simple",
+    "testing",
+    "debugging",
+    "spawn"
+  ],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-simple-commands/issues"
+  },
+  "devDependencies": {
+    "coveralls": "~2.10.0",
+    "should": "~4.0.4",
+    "mocha": "~1.20.1",
+    "jshint": "~2.5.1",
+    "istanbul": "~0.2.13",
+    "simple-bufferstream": "0.0.4"
+  },
+  "dependencies": {}
+}
