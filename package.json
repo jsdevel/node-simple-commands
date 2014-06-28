@@ -1,7 +1,7 @@
 {
   "name": "simple-commands",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A collection of simple commands used for testing or debugging.",
   "author": "Joseph Spencer",
   "scripts": {
