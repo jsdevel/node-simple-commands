@@ -44,9 +44,9 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ``````
 
-[downloads-image]: http://img.shields.io/npm/dm/node-simple-commands.svg
-[npm-url]: https://npmjs.org/package/node-simple-commands
-[npm-image]: http://img.shields.io/npm/v/node-simple-commands.svg
+[downloads-image]: http://img.shields.io/npm/dm/simple-commands.svg
+[npm-url]: https://npmjs.org/package/simple-commands
+[npm-image]: http://img.shields.io/npm/v/simple-commands.svg
 
 [travis-url]: https://travis-ci.org/jsdevel/node-simple-commands
 [travis-image]: http://img.shields.io/travis/jsdevel/node-simple-commands.svg
